@@ -1,0 +1,6 @@
+This my very First Helm chart.
+Some notes for future users.
+
+Version: {{ .Values.version.number }}
+
+Message: {{ .Values.version.message }}

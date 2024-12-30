@@ -1,0 +1,20 @@
+appName: rabbitmq
+
+configmap:
+  name: rabbitmq-configmap
+  data:
+    PASSWORD: P@$$w0rd
+
+secret:
+  name: rabbitmq-secret
+
+service:
+  name: rabbitmq-service
+
+image:
+  name: rabbitmq
+  tag: 4.0.3-management
+
+ingress:
+  name: rabbitmq-ingress
+  host: rabbitmq-manager.com

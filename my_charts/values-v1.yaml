@@ -1,0 +1,7 @@
+configmap:
+  name: rabbitmq-configmap-v2
+  data:
+    PASSWORD: "98798654654987"
+version:
+  number: 1
+  message: Oh, Hi Mom!!!!
